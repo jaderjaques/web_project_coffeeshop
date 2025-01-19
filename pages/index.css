@@ -166,3 +166,109 @@
   line-height: 30px;
   color: #ffffff;
 }
+
+/* Estilo da section formulário */
+
+.reservation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/background_reservation.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #d9e7ff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 385px;
+}
+
+/* Estilo título do formulário */
+
+.reservation__title {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  align-self: center;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+/* Estilo formulário */
+
+.reservation__form {
+}
+
+.form__fieldset {
+  text-align: left;
+  border: none;
+  max-width: 385px;
+  margin-bottom: 32px;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 8px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__input {
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  max-height: 60px;
+  margin-bottom: 32px;
+  padding: 15px 20px;
+  border-color: #838383;
+  border-style: solid;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__input::placeholder {
+  color: #838383;
+}
+
+.form__button {
+  border-radius: 4px;
+  height: 60px;
+  width: 100%;
+  background-color: #2f80ed;
+  border: none;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.form__button:hover {
+  opacity: 70%;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+}
+
+.form__fieldset-checkbox {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 120px;
+}
