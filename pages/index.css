@@ -190,7 +190,9 @@
 /* Estilo título do formulário */
 
 .reservation__title {
-  margin: 100px auto 80px;
+  margin: 0px;
+  padding-top: 100px;
+  margin-bottom: 80px;
   align-self: center;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
