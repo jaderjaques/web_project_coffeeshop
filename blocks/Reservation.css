@@ -1,0 +1,29 @@
+/* ESTILO DO FORMULÁRIO */
+
+.reservation {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/background_reservation.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #d9e7ff;
+}
+
+.reservation__title {
+  margin: 0px auto;
+  padding-top: 100px;
+  margin-bottom: 80px;
+  align-self: center;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form {
+}
