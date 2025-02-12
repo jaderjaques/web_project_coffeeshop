@@ -8,9 +8,8 @@
 
 .recipes__title {
   max-width: 580px;
-  padding-top: 100px;
-  margin-left: 80px;
-  margin-top: 0px;
+  padding: 100px 0px 24px 80px;
+  margin: 0px;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -21,8 +20,8 @@
 
 .recipes__subtitle {
   max-width: 438px;
-  margin-top: 24px;
-  margin-left: 80px;
+  margin: 0;
+  padding: 0px 0px 80px 80px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
@@ -35,7 +34,6 @@
   display: flex;
   gap: 40px;
   justify-content: center;
-  padding-top: 80px;
 }
 
 .recipes__video-caption {

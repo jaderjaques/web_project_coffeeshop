@@ -16,7 +16,7 @@
 
 .header__title {
   flex-wrap: wrap;
-  padding-top: 183px;
+  margin: 183px 0px 28px 80px;
   width: 709px;
   font-family: "inter";
   font-style: normal;
@@ -24,7 +24,6 @@
   font-size: 58px;
   line-height: 72px;
   letter-spacing: -1px;
-  margin-left: 80px;
 }
 
 .header__description {
@@ -34,7 +33,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  margin-left: 80px;
+  margin: 0 0 0 80px;
 }
 
 .header__image {
